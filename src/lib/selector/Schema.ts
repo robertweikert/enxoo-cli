@@ -91,8 +91,7 @@ export class Schema {
         'enxCPQ__Criteria__c',
         'enxCPQ__Location_Network_Status__c',
         'enxCPQ__Location_Type__c',
-        'enxCPQ__TECH_External_Id__c',
-        'enxCPQ__Resource_Location_Type__c'
+        'enxCPQ__TECH_External_Id__c'
     ]
 
     public static Resource:Array<string> = [
