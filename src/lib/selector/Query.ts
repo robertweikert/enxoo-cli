@@ -44,7 +44,7 @@ export class Query {
 
         const uniqueRecordsMap = new Map();
         for (const record of flattenedResults) {
-            uniqueRecordsMap.set(record.Id, record);
+            uniqueRecordsMap.set(record.enxCPQ__TECH_External_Id__c ?? record.Id, record);
         }
     
         return Array.from(uniqueRecordsMap.values());
